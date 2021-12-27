@@ -76,8 +76,8 @@ public class Controller {
     private boolean initialized = false; // Used to start/pause game loop
 
     // Settings
-    public static boolean verbose = false; // Used to enable logging with System.out.println()
-    private boolean viewGraph = false; // Used to enable/disable viewGraph
+    public static boolean verbose = true; // Used to enable logging with System.out.println()
+    private boolean viewGraph = true; // Used to enable/disable viewGraph
 
     /**
      * Initializes GUI
